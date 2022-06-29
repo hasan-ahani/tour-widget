@@ -1,0 +1,136 @@
+
+
+.tab-box {
+    display: flex;
+    border-bottom: 4px solid #34495E;
+    align-items: center;
+}
+
+ul.tabs {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: "Yekan Bakh";
+}
+
+ul.tabs li {
+    padding: 10px 25px;
+    background: rgb(52 73 94 / 40%);
+    border-radius: 10px 10px 0px 0px;
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+a.view-all {
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    /* identical to box height */
+    text-align: right;
+    color: #34495E;
+    text-decoration: none;
+    margin-right: auto;
+}
+
+ul.tabs li.active {
+    background: #34495E;
+}
+
+.tab-contents {
+    background: rgba(52, 73, 94, 0.1);
+    border-radius: 0px 0px 20px 20px;
+    padding: 34px 32px;
+}
+.tab-content.active{
+
+    display: grid;
+}
+.tab-content {
+    display: none;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 48px;
+}
+
+a.tour-item {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.tour-name {
+    background: #34495E;
+    border-radius: 0px 0px 10px 10px;
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+}
+.thumbnail {
+    height: 208px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 12px 12px 0 0;
+}
+
+.thumbnail img {
+    position: absolute;
+    height: 100%;
+}
+.tour-widget-detail{
+    position: absolute;
+    display: none;
+    z-index: 99;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+.tour-widget-detail.hover{
+    display: block;
+}
+
+
+.cart-item-detail {
+    width: 240px;
+}
+
+.cart-detail-content {
+    background: #34495E;
+    border-radius: 0px 0px 10px 10px;
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 11px;
+}
+.cart-detail-content strong{
+    font-weight: 600;
+}
+
+
+.detail {
+    font-size: 15px;
+    line-height: 23px;
+    color: #FFFFFF;
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 300;
+}

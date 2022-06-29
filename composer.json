@@ -1,0 +1,15 @@
+{
+    "name": "hasanart/tour-widget",
+    "autoload": {
+        "psr-4": {
+            "Hasanart\\TourWidget\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hasan Ahani",
+            "email": "hasanahani.ir@gmail.com"
+        }
+    ],
+    "require": {}
+}
